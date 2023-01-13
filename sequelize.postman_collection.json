@@ -1,0 +1,405 @@
+{
+	"id": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+	"name": "sequelize",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "addressbook",
+			"description": "",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"order": [
+				"f4202662-bde8-a805-c87d-67890f10fc19",
+				"0ba3d156-c422-30fc-0799-53925417faf0",
+				"9eb2ef4e-67ac-c1f2-70de-78bce512f8a3",
+				"ce1325e2-6b78-4b7f-1357-25d3c73d2442"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "cfe4f631-bf53-ba35-969e-90b2d233a7e6"
+		},
+		{
+			"name": "user",
+			"description": "",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"order": [
+				"1f42527f-aeb2-e35a-781d-26411b6186ee",
+				"6d6478d1-f19b-b648-307f-1fbca8313754",
+				"1cd4ed93-5b66-b83d-be94-4ee14a6d52be",
+				"8f87238f-786e-0bb4-fe71-0787b1be8dae",
+				"e02793e2-c3fd-db4a-a328-f5fd2ae089eb"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "99de4b6b-3f42-3ba3-73e1-db9f49be90cf"
+		}
+	],
+	"folders_order": [
+		"99de4b6b-3f42-3ba3-73e1-db9f49be90cf",
+		"cfe4f631-bf53-ba35-969e-90b2d233a7e6"
+	],
+	"timestamp": 1673593790047,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0ba3d156-c422-30fc-0799-53925417faf0",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA2OTI0LCJleHAiOjE2NzM2MTA1MjR9.r2cztV1wqmw1fSyN8dAJBlPxFqAcsWk_Ll2cQ-qk8LY\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA2OTI0LCJleHAiOjE2NzM2MTA1MjR9.r2cztV1wqmw1fSyN8dAJBlPxFqAcsWk_Ll2cQ-qk8LY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/viewAddressBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": null,
+			"dataMode": "params",
+			"name": "viewAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673606987958,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cfe4f631-bf53-ba35-969e-90b2d233a7e6"
+		},
+		{
+			"id": "1cd4ed93-5b66-b83d-be94-4ee14a6d52be",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNTk1NTQzLCJleHAiOjE2NzM1OTkxNDN9.H4YoucNyNQAE9BpwGnew197V5MJxcWb3liP5O8lzXvo\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNTk1NTQzLCJleHAiOjE2NzM1OTkxNDN9.H4YoucNyNQAE9BpwGnew197V5MJxcWb3liP5O8lzXvo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/viewProfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": null,
+			"dataMode": "params",
+			"name": "viewProfile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673602267569,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99de4b6b-3f42-3ba3-73e1-db9f49be90cf"
+		},
+		{
+			"id": "1f42527f-aeb2-e35a-781d-26411b6186ee",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3000/registration",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Lux ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "2023-01-03.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "abcde@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1673608746311,
+			"name": "registration",
+			"description": "",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"responses": []
+		},
+		{
+			"id": "6d6478d1-f19b-b648-307f-1fbca8313754",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1673609536774,
+			"name": "login",
+			"description": "",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"abcd@gmail.com\",\n\t\"password\":\"789456\"\n}"
+		},
+		{
+			"id": "8f87238f-786e-0bb4-fe71-0787b1be8dae",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjAyMzE3LCJleHAiOjE2NzM2MDU5MTd9.LNguKiGFJ9ix3jGsEwrJ58bhKtWyMFh1q-7VuNPBVwk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjAyMzE3LCJleHAiOjE2NzM2MDU5MTd9.LNguKiGFJ9ix3jGsEwrJ58bhKtWyMFh1q-7VuNPBVwk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/updateProfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": [
+				{
+					"key": "name",
+					"value": "Lux ",
+					"description": ""
+				},
+				{
+					"key": "gender",
+					"value": "male",
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file"
+				},
+				{
+					"key": "email",
+					"value": "abcd@gmail.com",
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "updateProfile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673602439346,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99de4b6b-3f42-3ba3-73e1-db9f49be90cf"
+		},
+		{
+			"id": "9eb2ef4e-67ac-c1f2-70de-78bce512f8a3",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA4OTEwLCJleHAiOjE2NzM2MTI1MTB9.89_nAgAQLdW4rMFCQme3X-EqBscu50d7hdafk6Mv-ks\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA4OTEwLCJleHAiOjE2NzM2MTI1MTB9.89_nAgAQLdW4rMFCQme3X-EqBscu50d7hdafk6Mv-ks",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/updateAddressBook/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "updateAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673609378410,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cfe4f631-bf53-ba35-969e-90b2d233a7e6",
+			"rawModeData": "\n\t{\n\t\t\"Title\":\"Title\",\n\t\t\"addressLine1\":\"ajit mill near\",\n\t\t\"addressLine2\":\"ajit mill opp\",\n\t\t\"Country\":\"India\",\n\t\t\"State\":\"Gujrat\",\n\t\t\"City\":\"Surat\",\n\t\t\"PinCode\":\"382225\"\n\t}"
+		},
+		{
+			"id": "ce1325e2-6b78-4b7f-1357-25d3c73d2442",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA4OTEwLCJleHAiOjE2NzM2MTI1MTB9.89_nAgAQLdW4rMFCQme3X-EqBscu50d7hdafk6Mv-ks\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA4OTEwLCJleHAiOjE2NzM2MTI1MTB9.89_nAgAQLdW4rMFCQme3X-EqBscu50d7hdafk6Mv-ks",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/deleteAddressBook/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": null,
+			"dataMode": "params",
+			"name": "deleteAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673609460906,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cfe4f631-bf53-ba35-969e-90b2d233a7e6"
+		},
+		{
+			"id": "e02793e2-c3fd-db4a-a328-f5fd2ae089eb",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjAyMzE3LCJleHAiOjE2NzM2MDU5MTd9.LNguKiGFJ9ix3jGsEwrJ58bhKtWyMFh1q-7VuNPBVwk\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjAyMzE3LCJleHAiOjE2NzM2MDU5MTd9.LNguKiGFJ9ix3jGsEwrJ58bhKtWyMFh1q-7VuNPBVwk",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/resetPassword",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "resetPassword",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673602897931,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99de4b6b-3f42-3ba3-73e1-db9f49be90cf",
+			"rawModeData": "{\n\t\"current_password\":\"123456\",\n\t\"password\":\"789456\",\n\t\"confirm_password\":\"789456\"\n}"
+		},
+		{
+			"id": "f4202662-bde8-a805-c87d-67890f10fc19",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA0MzcyLCJleHAiOjE2NzM2MDc5NzJ9.-a_UZu0SW6cA6zT5Yu9PLSl0h3x1s4RInSRwO_kE130\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY2RAZ21haWwuY29tIiwiaWF0IjoxNjczNjA0MzcyLCJleHAiOjE2NzM2MDc5NzJ9.-a_UZu0SW6cA6zT5Yu9PLSl0h3x1s4RInSRwO_kE130",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/addAddressBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5acaf733-e0fe-68ac-c796-4e6a74a17aa0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "addAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673606456853,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "cfe4f631-bf53-ba35-969e-90b2d233a7e6",
+			"rawModeData": "[\n\t{\n\t\t\"Title\":\"Title3\",\n\t\t\"addressLine1\":\"ajit mill near\",\n\t\t\"addressLine2\":\"ajit mill opp\",\n\t\t\"Country\":\"India\",\n\t\t\"State\":\"Gujrat\",\n\t\t\"City\":\"Ahmedabad\",\n\t\t\"PinCode\":\"382225\"\n\t},\n\t{\n\t\t\"Title\":\"Title4\",\n\t\t\"addressLine1\":\"kalikund near\",\n\t\t\"addressLine2\":\"kalikund opp\",\n\t\t\"Country\":\"India\",\n\t\t\"State\":\"Gujrat\",\n\t\t\"City\":\"Ahmedabad\",\n\t\t\"PinCode\":\"382225\"\n\t}\n]"
+		}
+	]
+}
